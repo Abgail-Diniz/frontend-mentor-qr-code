@@ -4,7 +4,7 @@
 <p>O site é um desafio do Frontend Mentor. 
 </p>
 
-- [Visite o projeto online](https://abgail-diniz.github.io/qr-code/)
+- [Visite o projeto online](https://abgail-diniz.github.io/frontend-mentor-qr-code/)
 
 <br>
 
