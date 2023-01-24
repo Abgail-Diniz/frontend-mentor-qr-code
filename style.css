@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+body{
+
+    max-width: 1440px;
+    padding: 50px;
+
+}
+main{
+    padding: 70px;
+    height: 85vh;
+    width: 90vw;
+
+    background-color:hsl(212, 45%, 89%) ;
+
+
+    box-shadow: 5px 5px 5px hsl(220, 15%, 55%);
+}
+
+.principal{
+    text-align: center;
+    background-color: white;
+
+    border-radius: 10px;
+
+
+    width: 13vw;
+    height: 60vh;
+    
+    margin-left: 400px;
+
+
+}
+img{
+    padding: 7px;
+    border-radius: 15px;
+    max-width: 150px;
+
+}
+
+h1{
+    margin-left: 10px;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+    padding: 5px;
+    width: 13vw;
+    right: 700px;
+
+}
+
+p{
+    color: hsl(220, 15%, 55%) ;
+    font-size: 13px;
+    padding: 8px;
+
+}
+
+
+@media (max-width:1200px){
+    .principal{
+        margin-left: 340px;
+        width: 15vw;
+    }
+
+}
+@media (max-width:1000px){
+    body{
+        padding: 0;
+    }
+
+    main{
+        box-shadow: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .principal{
+        margin-left: 300px;
+        width: 18vw;
+    }
+    h1{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:800px){
+    .principal{
+        margin-left: 230px;
+        width: 24vw;
+        height: 65vh;
+    }
+    h1{
+        margin-left: 20px;
+        width: 15vw;
+    }
+    
+}
+@media (max-width:600px){
+    .principal{
+        margin-left: 150px;
+        width: 29vw;
+        height: 60vh;
+    }
+    h1{
+        margin-left: 20px;
+        width: 20vw;
+    }
+}
+@media (max-width:500px){
+    .principal{
+        margin-left: 100px;
+        width: 43vw;
+        height: 70vh;
+    }
+    img{
+        max-width: 200px;
+    }
+    h1{
+        margin-left: 30px;
+        width: 30vw;
+    }
+
+}
+@media (max-width:375px){
+    main{
+        padding: 50px;
+    }
+    .principal{
+        margin-top: 70px;
+        margin-left: 10px;
+
+        width: 60vw;
+        height: 49vh;
+        padding: 5px;
+        
+        border-radius: 20px;
+    }
+    img{
+        max-width: 215px;
+    }
+    h1{
+
+        margin-left: 15px;
+        width: 50vw;
+    }
+    p{
+        padding: 20px;
+    }
+
+}
+
